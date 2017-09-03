@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; }
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto; }
+
+/* HERO */
+.hero {
+  height: 1000px;
+  width: 100%;
+  background: url(https://static.pexels.com/photos/558478/pexels-photo-558478.jpeg);
+  background-position: center;
+  overflow: hidden; }
+
+.slogan {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 50vh; }
+  .slogan h1 {
+    font-size: 60px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    width: 750px;
+    margin: auto; }
+  .slogan p {
+    border: 1px solid #fff;
+    width: 185px;
+    height: 56px;
+    margin: auto;
+    margin-top: 60px;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+/* HEADER */
+header {
+  background: #252e30;
+  height: 70px; }
+
+.logo {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  color: #fff;
+  float: left; }
+  .logo h1 {
+    background: #4b5456;
+    font-size: 30px;
+    margin-top: 14px; }
+
+.logo-name {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-left: 12px;
+  line-height: 35px; }
+  .logo-name p {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 14px;
+    color: #fff; }
+
+.nav_list {
+  text-transform: uppaercase;
+  float: right;
+  list-style: none; }
+  .nav_list li {
+    display: inline-block; }
+  .nav_list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 20px;
+    display: block;
+    color: #fff;
+    font-weight: 300;
+    line-height: 35px;
+    font-size: 16px; }
+    .nav_list a:hover {
+      color: #2ecc71;
+      font-weight: 700; }
+
+/* MAIN */
+.main {
+  margin: 0 50px; }
+  .main h1 {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 24px;
+    color: #566366;
+    margin-top: 10vh; }
+  .main p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #919191;
+    margin-bottom: 10vh; }
+
+/* ABOUT */
+.info_photo {
+  width: 20%;
+  height: 400px;
+  background-image: url("https://avatars1.githubusercontent.com/u/29510788?v=4&u=8f71129ef73594e813a381691b12935d6c3d1681&s=400");
+  background-size: cover;
+  background-position: center;
+  float: left; }
+
+.info_content {
+  width: 80%;
+  height: 400px;
+  padding: 28px 0 28px 99px;
+  background-color: #f2f2f1;
+  color: #566366;
+  float: left;
+  position: relative; }
+  .info_content h1 {
+    font-weight: 700;
+    font-size: 30px;
+    font-style: bold; }
+  .info_content p {
+    width: 670px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #919191; }
+
+.icon {
+  height: 40px;
+  width: 40px;
+  color: #566366;
+  font-size: 40px; }
+  .icon:hover {
+    color: #2ecc71;
+    cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
